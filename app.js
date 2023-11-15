@@ -1,5 +1,5 @@
 function playSound(e) {
-  // select the audio and the buttons
+  // select the audio and the buttons according to the keys we press
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
