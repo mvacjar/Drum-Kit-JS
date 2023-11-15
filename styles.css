@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("./background.jpg") bottom center;
+  background: url("src/background.jpg") bottom center;
   background-size: cover;
 }
 
@@ -23,9 +23,9 @@ html {
   border: 0.4rem solid black;
   border-radius: 0.5rem;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1rem 0.5rem;
-  transition: all 0.07s ease;
+  transition: all 0.5s ease;
   width: 10rem;
   text-align: center;
   color: white;
@@ -35,8 +35,8 @@ html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #b471f3;
+  box-shadow: 0 0 1rem #b471f3;
 }
 
 kbd {
@@ -45,8 +45,9 @@ kbd {
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #ffc600;
+  color: #b471f3;
 }
